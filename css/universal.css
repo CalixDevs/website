@@ -1,15 +1,9 @@
-html {
-    background: radial-gradient(circle, #140013 0%, #000000 100%);
-}
-
 body::-webkit-scrollbar {
     width: 1em;
 }
 
 body::-webkit-scrollbar-track {
-    background-color: #000000;
-    box-shadow: inset 0 0 6px #0000004d;
-    -webkit-box-shadow: inset 0 0 6px #0000004d;
+    background-color: white;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -18,13 +12,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
+    background: white;
     padding: 50px;
-    color: #8f8f8f;
+    color: #000000;
     font-family: 'Inconsolata', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    color: #cccccc;
     text-align: center;
     letter-spacing: 4px;
     padding: 15px;
@@ -32,12 +26,12 @@ h1, h2, h3, h4, h5 {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #8b8dff;
     transition: color 0.5s;
 }
 
 a:hover {
-    color: #ff69b4;
+    color: #1100ff;
 }
 
 .hide {
