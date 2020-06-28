@@ -5,3 +5,7 @@
 .welcome h1 {
     letter-spacing: 8px;
 }
+
+.center-text {
+    text-align: center;
+}
